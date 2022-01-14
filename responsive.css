@@ -1,3 +1,95 @@
+/* START min-width: 2560px */
+@media (min-width: 2560px) {
+    .sect1 {
+        padding: 265px;
+    }
+
+    .sect1 div header {
+        font-size: 128px;
+    }
+
+    .sect1 div p {
+        font-size: 100px;
+    }
+
+    .sect1 div img {
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+    }
+
+    section header {
+        font-size: 115px;
+    }
+
+    .sect2 p {
+        font-size: 60px;
+    }
+
+    th {
+        font-size: 60px;
+    }
+
+    td {
+        font-size: 50px;
+    }
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 100px;
+        row-gap: 100px;
+        margin-top: 23px;
+    }
+
+    .gallery-grid img {
+        width: 600px;
+    }
+
+    .sect4 p {
+        font-size: 70px;
+    }
+}
+/* END min-width: 2560px */
+
+/* START min-width: 1440px */
+@media (min-width: 1440px) {
+    section header {
+        font-size: 60px;
+    }
+
+    .sect1 div header {
+        font-size: 70px;
+    }
+
+    .sect1 div p {
+        font-size: 50px;
+    }
+
+    .sect1 div img {
+        width: 85px;
+        height: 85px;
+        border-radius: 50px;
+    }
+
+    .sect2 p {
+        font-size: 35px;
+    }
+
+    th {
+        font-size: 35px;
+    }
+
+    td {
+        font-size: 30px;
+    }
+
+    .sect4 p {
+        font-size: xxx-large;
+    }
+}
+/* END min-width: 1440px */
+
 /* START max-width: 768px */
 @media all and (max-width: 768px) {
     .sect1 {
