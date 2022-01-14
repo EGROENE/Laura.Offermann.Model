@@ -1,4 +1,4 @@
-/* BEGIN MEDIA QUERIES */
+/* START max-width: 768px */
 @media all and (max-width: 768px) {
     .sect1 {
         height: 570px;
@@ -22,7 +22,9 @@
         width: 216px;
     }
 }
+/* END max-width: 768px */
 
+/* START max-width: 425px */
 @media all and (max-width: 425px) {
     section header {
         font-size: 26px;
@@ -72,7 +74,9 @@
         width: 179px;
     }
 }
+/* END max-width: 425px */
 
+/* START max-width: 375px */
 @media all and (max-width: 375px) {
     .sect1 {
         height: 540px;
@@ -106,7 +110,9 @@
         width: 155px;
     }
 }
+/* END max-width: 375px */
 
+/* START max-width: 320px */
 @media all and (max-width: 320px) {
     .sect1 div header {
         font-size: 20px;
@@ -138,4 +144,4 @@
         width: 136px;
     }
 }
-/*END MEDIA QUERIES */
+/*END max-width: 320px */
